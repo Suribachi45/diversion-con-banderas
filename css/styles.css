@@ -1,10 +1,59 @@
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f0f0f0;
+  background-color: #c2b7b7;
   margin: 0;
   padding: 0;
 }
 
 h1 {
   color: #333;
+}
+
+#countries-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #E7E7E7;
+  border-radius: 4px;
+  width: 300px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.modal {
+  background-color: white;
+  width: 500px;
+  height: 300px;
+  position: fixed;
+  top: 20%;
+  left: 40%;
+  border: 1px solid #E7E7E7;
+  border-radius: 4px;
+
+}
+
+.hidden {
+  display: none;
+}
+
+.modal {
+  padding: 10px;
+}
+
+.img-info-container {
+  display: flex;
+  gap: 10px;
+}
+
+.close-btn {
+  margin-top: 10px;
 }
